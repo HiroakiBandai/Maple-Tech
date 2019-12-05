@@ -16,6 +16,10 @@ ul li a{
   position: relative;
   bottom:50px;
 }
+ul li a:hover{
+  color:orange;
+
+}
 
 
 h1.title{
