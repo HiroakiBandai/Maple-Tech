@@ -1,3 +1,31 @@
-h1{
-  color:red;
+body{
+  background-image:url("../img/Maple-Tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  display:inline-block;
+  font-size:50px;
+  float:right;
+  padding:20px;
+  position: relative;
+}
+ul li a{
+  color:whitesmoke;
+  position: relative;
+  bottom:50px;
+}
+ul li a:hover{
+  color:orange;
+
+}
+
+
+h1.title{
+  font-size:100px;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  left:590px;
+  top:250px;
 }
