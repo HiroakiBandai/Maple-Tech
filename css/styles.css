@@ -3,7 +3,11 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+ul{
+  position: fixed;
+  top:2%;
+  right:2%;
+}
 ul li {
   display:inline-block;
   font-size:50px;
@@ -11,21 +15,62 @@ ul li {
   padding:20px;
   position: relative;
 }
+ul li button{
+  height:60px;
+  width:150px;
+  font-size:16px;
+  display: inline-block;
+  text-decoration: none;
+  background: #87befd;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 5px #87befd;
+  border: dashed 3px #FFF;
+  transition: .4s;
+}
+ul li button:hover {
+  background: #668ad8;
+  box-shadow: 0px 0px 0px 5px #668ad8;
+  
+}
+
+
 ul li a{
-  color:whitesmoke;
-  position: relative;
-  bottom:50px;
-}
-ul li a:hover{
-  color:orange;
-
+  color:white;
+  text-decoration:none;
+  
 }
 
 
+
+
+main{
+  width:100%;
+}
 h1.title{
+  display:inline-block;
   font-size:100px;
   font-family: 'Righteous', cursive;
-  position: relative;
-  left:590px;
+  transition: all 2s;
+  width:1400px;
+  margin-left:50%;
+  transform:translate(-50%);
+  text-align:center;
+  align-items:center;
+  position:fixed;
   top:250px;
+  
+}
+h1.title:hover{
+  
+  font-size:120px;
+}
+@media (max-width:900px){
+
+
 }
