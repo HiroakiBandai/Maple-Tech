@@ -1,157 +1,103 @@
-body{
-  background-image:url("../img/Maple-Tech.jpg");
+body.home{
+  background:url("../img/Maple-Tech.jpg") ;
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:100vh;
+  width:100vw;  
+  margin:0;
 }
-ul#navi{
-  position: fixed;
-  top:2%;
-  right:2%;
-}
-ul li {
-  display:inline-block;
-  font-size:50px;
-  float:right;
-  padding:20px;
+h1{
   position: relative;
 }
-ul li button{
-  height:60px;
-  width:150px;
-  font-size:16px;
-  display: inline-block;
-  text-decoration: none;
-  background: #87befd;
-  color: #FFF;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
-  border-radius: 50%;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0px 0px 0px 5px #87befd;
-  border: dashed 3px #FFF;
-  transition: .4s;
-}
-ul li button:hover {
-  background: #668ad8;
-  box-shadow: 0px 0px 0px 5px #668ad8;
-  
-}
-
-
-ul li a{
-  color:white;
-  text-decoration:none;
-  
-}
-
-
-
-
-main{
-  width:100%;
-}
 h1.title{
-  display:inline-block;
-  font-size:100px;
-  color:skyblue;
+  display: inline-block;
   font-family: 'Righteous', cursive;
   transition: all 2s;
-  width:1400px;
-  margin-left:50%;
-  transform:translate(-50%);
-  text-align:center;
-  align-items:center;
-  position:fixed;
-  top:250px;
-  
+  width: 100%;
+  margin-left: 50%;
+  top: 40%;
+  /* left: 50%; */
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color: skyblue;
+  font-size: 100px;
 }
-h1.title:hover{
-  
-  font-size:120px;
+#navi{
+  margin:0;
+  display:flex;
+  flex-direction:column-reverse ;
+  align-items: flex-end;
 }
-@media screen and (max-width:2560px){
-
+#navi li {
+  display:inline-block;
+  font-size:20px;
+  float:right;
+  padding:10px 20px;
+  position: relative;
 }
-@media screen and (max-width:1723px){
-    body.home{background-image: url(../img/Maple-Tech.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      padding-top: 120%;
-
-    }
-
-@media screen and (max-width:1439px) {
-  body.home{
-    background-image: url(../img/Maple-Tech.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 170%;
-  }
-
-}
-@media screen and (max-width: 1023px) {
-  body.home{
-    background-image: url(../img/Maple-Tech.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 223%;
-  }
-
-}
-@media screen and (max-width: 767px){
-
-}
-@media screen and (max-width: 425px) {
-  body.home{
-    background-image:url("../img/Maple-Tech.jpg");
-    background-size: cover;
-    padding-top:391%;
-    
-  }
-  h1.title{
-    display: inline-block;
-    font-size: 56px;
-    font-family: 'Righteous', cursive;
-    transition: all 2s;
-    width: 1000px;
-    margin-left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    align-items: center;
-    position: fixed;
-    top: 250px;
-  }
-  ul#navi{
-    position: fixed;
-    top:25%;
-    right:25%;
-    }
-  
-  
-  
-  ul li button{
-    height:60px;
-    width:150px;
-    font-size:16px;
-    display: inline-block;
+#navi li a{
+    position: relative;
+    top:30px;
     text-decoration: none;
-    background: #87befd;
-    color: #FFF;
-    width: 150px;
-    height: 150px;
-    line-height: 120px;
-    border-radius: 50%;
-    text-align: center;
-    overflow: hidden;
-    box-shadow: 0px 0px 0px 5px #87befd;
-    border: dashed 3px #FFF;
-    transition: .4s;
+    font-size: 25px;
+    color: #417ba2;
+}
+#navi li a:hover{
+  color:orange;
+  text-decoration: underline;
+}
+@media screen and (min-width: 425px) {
+body.home{
+  background:url("../img/Maple-Tech.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:100vh;
+  width:100vw;  
+}
+
+
+  h1.title{
+  display: inline-block;
+  font-family: 'Righteous', cursive;
+  transition: all 2s;
+  width: 100%;
+  margin-left: 50%;
+  /* top: 50%; */
+  /* left: 50%; */
+  transform: translate(-50%,-50%);
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  color: skyblue;
+  
   }
-  ul li button:hover {
-    background: #668ad8;
-    box-shadow: 0px 0px 0px 5px #668ad8;
-    
+  #navi{
+    flex-direction: row-reverse;
+    justify-content:flex-start;
   }
+  #navi li {
+  display:inline-block;
+  /* font-size: 0px; */
+  float:right;
+  padding:10px 20px;
+  position: relative;
+  }
+  #navi li a{
+  color:whitesmoke;
+  position: relative;
+  top: 30%;
+  text-decoration: none;
+  font-size: 35px;
+  }
+  #navi li a:hover{
+    color:orange;
+    text-decoration: underline;
+}
 }
