@@ -1,0 +1,269 @@
+body.home{
+  background-image:url("../img/Maple-Tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ul li {
+  display:inline-block;
+  font-size:20px;
+  float:right;
+  padding:10px 20px;
+  position: relative;
+}
+ul li a{
+  color:whitesmoke;
+  position: relative;
+  bottom:45px;
+  text-decoration: none;
+  font-size: 32px;
+}
+ul li a:hover{
+  color:orange;
+  text-decoration: underline;
+}
+
+.ion-image{
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+.aki-image{
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+.shinya-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+.shu-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+.sachi-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+h1.aboutUs{
+  text-align: center;
+  font-size: 70px;
+  padding-top:-80px;
+  padding-left: 25%;
+  font-family: 'vidaloka', serif;
+}
+body.about{
+  padding-left: 0;
+  background-color: #DAD2D8;
+
+}
+
+.Name{
+  padding-top: 1%;
+}
+div.column{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Patua One', cursive;
+  position: relative;
+  font-size: 1em;
+  max-width: 80%;
+  min-height: 50%;
+  padding: 8px 15px;
+}
+.comment1, .comment2, .comment3, .comment4, .comment5{
+  width:40%;
+}
+
+.combine{
+  display: block;
+  margin-left:50%;
+  transform:translate(-50%);
+}
+div.combine2:before{
+  content:"";
+  position: absolute;
+  top: 30%;
+  left:-30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e0edff;
+} 
+
+div.combine2{
+  position: relative;
+  padding: 2%;
+  background: #E0EDFF;
+  border-radius: 10px;
+  min-width:250px;
+}
+.combine3{
+  display: flex;
+  flex-direction: row;
+}
+
+.comment2,.comment4{
+  align-self: flex-end;
+}
+
+h1.Name1{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+h1.Name2{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+h1.Name3{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+h1.Name4{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+h1.Name5{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+/* *{
+  border: 1px solid red;
+} */
+/* MOBILE version*/
+
+@media screen and (max-width:425px){
+  body.home{
+    background-image:url("../img/Maple-Tech.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  ul li {
+    display:inline-block;
+    font-size:20px;
+    float:right;
+    padding:10px 20px;
+    position: relative;
+  }
+  ul li a{
+    color:whitesmoke;
+    position: relative;
+    bottom:45px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  ul li a:hover{
+    color:orange;
+    text-decoration: underline;
+  }
+  
+  .ion-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 10px skyblue;
+  }
+  .aki-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 10px skyblue;
+    margin-top: -10px;
+  }
+  .shinya-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 10px skyblue;
+    margin-top: 50px;
+  }
+  .shu-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 10px skyblue;
+    margin-top: 50px;
+  }
+  .sachi-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 10px skyblue;
+    margin-top: 50px;
+  }
+  h1.aboutUs{
+    text-align: center;
+    font-size: 2em;
+    padding-top:10px;
+    font-family: 'vidaloka', serif;
+    margin-top: 30%;
+    padding-right: 35%;
+  }
+  body.about{
+    background-color: #DAD2D8;
+    position: relative;
+    margin-left: 0;
+    padding-left:0;
+  }
+  
+  div.combine2:before{
+      content:"";
+      position: absolute;
+      top: 30%;
+      left:-30px;
+      margin-top: -15px;
+      border: 15px solid transparent;
+      border-right: 15px solid #e0edff;
+    } 
+
+    div.combine2{
+      position: relative;
+      background: #e0edff;
+      padding: 8px 7.5px;
+      text-align: justify;
+      color: #555555;
+      font-size: 16px;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 10px 10px 15px;
+      font-family: 'Patua One', cursive;
+      max-height: 240px;
+      right: 52px;
+      max-width: 70px;
+      
+      }
+
+    h1.Name1,h1.Name2,h1.Name3,h1.Name4,h1.Name5{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    div.column{
+        display: block;
+        max-width: 425px;
+        padding-left: 0;
+    }
+      div.combine3{
+          margin-right: auto;
+          margin-top: 5%;
+      }
+
+      /* *{
+          border: 1px solid red;
+      } */
+  }
