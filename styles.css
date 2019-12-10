@@ -1,0 +1,536 @@
+body.home {
+  background-image: url("../img/Maple-Tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 20px;
+  float: right;
+  padding: 10px 20px;
+  position: relative;
+}
+
+ul li a {
+  color: whitesmoke;
+  position: relative;
+  bottom: 45px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+h1.title {
+  font-size: 100px;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  left: 590px;
+  top: 250px;
+}
+
+.ion-image {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+
+.aki-image {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+
+.shinya-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+
+.shu-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+
+.sachi-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 10px skyblue;
+}
+
+h1.aboutUs {
+  text-align: center;
+  font-size: 70px;
+  padding-top: -80px;
+  padding-left: 25%;
+  font-family: 'vidaloka', serif;
+}
+
+body.about {
+  padding-left: 5%;
+  background-color: #DAD2D8;
+}
+
+
+/* .column1, .column2{
+float: left;
+width: 15%;
+}
+.column2{
+float: right;
+width: 15%;
+} */
+
+.Name {
+  padding-top: 1%;
+}
+
+div.column {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Patua One', cursive;
+  position: relative;
+  font-size: 1em;
+  max-width: 80%;
+  min-height: 50%;
+  padding: 8px 15px;
+}
+
+.comment1,
+.comment2,
+.comment3,
+.comment4,
+.comment5 {
+  width: 40%;
+}
+
+.combine {
+  display: block;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.combine2 {
+  padding: 2%;
+  background: #E0EDFF;
+  border-radius: 10px;
+  min-width: 250px;
+}
+
+.combine3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment2,
+.comment4 {
+  align-self: flex-end;
+}
+
+
+/* div.comment1,.comment2,.comment3{
+position: relative;
+max-width:90%;
+max-height: 50%;
+background: #E0EDFF;
+padding: 8px 15px;
+text-align: center;
+color: #555555;
+font-size: 1em;
+/* font-weight: bold; */
+
+
+/* border-radius: 10px;
+display: inline-block;
+margin: 0 auto;
+justify-content: justify;
+font-family: 'Patua One', cursive;
+}
+.comment4,.comment5{
+position: relative;
+max-width:90%;
+max-height: 50%;
+background: #E0EDFF;
+padding: 8px 15px;
+text-align: center;
+color: #555555;
+font-size: 1em;
+/* font-weight: bold; */
+
+
+/* border-radius: 10px;
+display: inline-block;
+justify-content: justify;
+font-family: 'Patua One', cursive;
+margin: 0 auto;
+left: -300px;
+/* } */
+
+
+/* div.comment1:before{
+content:"";
+position: absolute;
+top: 30%;
+left:-20px;
+margin-top: -15px;
+border: 15px solid transparent;
+border-right: 15px solid #E0EDFF;
+
+}
+div.comment2:before{
+content:"";
+position: absolute;
+top: 30%;
+left:-20px;
+margin-top: -15px;
+border: 15px solid transparent;
+border-right: 15px solid #E0EDFF;
+
+}
+div.comment3:before{
+content:"";
+position: absolute;
+top: 50%;
+left:-20px;
+margin-top: -15px;
+border: 15px solid transparent;
+border-right: 15px solid #E0EDFF;
+
+}
+div.comment4:before{
+content:"";
+position: absolute;
+top: 50%;
+left:-20px;
+margin-top: -15px;
+border: 15px solid transparent;
+border-right: 15px solid #E0EDFF;
+
+}
+div.comment5:before{
+content:"";
+position: absolute;
+top: 30%;
+left:-20px;
+margin-top: -15px;
+border: 15px solid transparent;
+border-right: 15px solid #E0EDFF; 
+
+}  */
+
+
+/* div.comment1,.comment2,.comment3,.comment4,.comment5 p{
+margin: 6px;
+padding: 6px;
+} */
+
+
+/* div.comment1,.comment2,.comment3,.comment4,.comment5 :after{
+border: solid transparent;
+content:"";
+height: 0;
+width: 0;
+pointer-events:none;
+position: absolute;
+border-width: 10px 30px;
+margin-top: 10px;
+right: 100%;
+top:50%
+} */
+
+h1.Name1 {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+
+h1.Name2 {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+
+h1.Name3 {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+
+h1.Name4 {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+
+h1.Name5 {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+
+
+/* *{
+border: 1px solid red;
+} */
+
+
+/* MOBILE version*/
+
+@media screen and (max-width:425px) {
+  body.home {
+      background-image: url("../img/Maple-Tech.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  ul li {
+      display: inline-block;
+      font-size: 20px;
+      float: right;
+      padding: 10px 20px;
+      position: relative;
+  }
+  ul li a {
+      color: whitesmoke;
+      position: relative;
+      bottom: 45px;
+      text-decoration: none;
+      font-size: 15px;
+  }
+  ul li a:hover {
+      color: orange;
+      text-decoration: underline;
+  }
+  h1.title {
+      font-size: 100px;
+      font-family: 'Righteous', cursive;
+      position: relative;
+      left: 590px;
+      top: 250px;
+  }
+  .ion-image {
+      margin-top: 50px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: solid 10px skyblue;
+  }
+  .aki-image {
+      margin-top: 50px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: solid 10px skyblue;
+  }
+  .shinya-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: solid 10px skyblue;
+  }
+  .shu-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: solid 10px skyblue;
+  }
+  .sachi-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: solid 10px skyblue;
+  }
+  h1.aboutUs {
+      text-align: center;
+      font-size: 2em;
+      padding-top: 10px;
+      /* padding-left: 25%; */
+      font-family: 'vidaloka', serif;
+      margin-top: 30%;
+  }
+  body.about {
+      padding-left: 5%;
+      background-color: #DAD2D8;
+  }
+  /* .column1, .column2{
+  float: left;
+  width: 15%;
+}
+.column2{
+  float: right;
+  width: 15%;
+} */
+  .Name {
+      padding-top: 1%;
+  }
+  div.column {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Patua One', cursive;
+      position: relative;
+      font-size: 10px;
+      max-width: 80%;
+      min-height: 50%;
+      padding: 8px 15px;
+  }
+  .comment1,
+  .comment2,
+  .comment3,
+  .comment4,
+  .comment5 {
+      width: 30%;
+  }
+  .combine {
+      display: block;
+      margin-left: 50%;
+      transform: translate(-50%);
+  }
+  .combine2 {
+      padding: 2%;
+      background: #E0EDFF;
+      border-radius: 10px;
+      min-width: 70px;
+  }
+  .combine3 {
+      display: flex;
+      flex-direction: row;
+  }
+  /* div.comment1,.comment2,.comment3{
+  position: relative;
+  max-width:90%;
+  max-height: 50%;
+  background: #E0EDFF;
+  padding: 8px 15px;
+  text-align: center;
+  color: #555555;
+  font-size: 1em;
+  /* font-weight: bold; */
+  /* border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  justify-content: justify;
+  font-family: 'Patua One', cursive;
+}
+.comment4,.comment5{
+  position: relative;
+  max-width:90%;
+  max-height: 50%;
+  background: #E0EDFF;
+  padding: 8px 15px;
+  text-align: center;
+  color: #555555;
+  font-size: 1em;
+  /* font-weight: bold; */
+  /* border-radius: 10px;
+  display: inline-block;
+  justify-content: justify;
+  font-family: 'Patua One', cursive;
+  margin: 0 auto;
+  left: -300px;
+/* } */
+  /* div.comment1:before{
+  content:"";
+  position: absolute;
+  top: 30%;
+  left:-20px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #E0EDFF;
+
+}
+div.comment2:before{
+  content:"";
+  position: absolute;
+  top: 30%;
+  left:-20px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #E0EDFF;
+
+}
+div.comment3:before{
+  content:"";
+  position: absolute;
+  top: 50%;
+  left:-20px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #E0EDFF;
+
+}
+div.comment4:before{
+  content:"";
+  position: absolute;
+  top: 50%;
+  left:-20px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #E0EDFF;
+
+}
+div.comment5:before{
+  content:"";
+  position: absolute;
+  top: 30%;
+  left:-20px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #E0EDFF; 
+
+}  */
+  /* div.comment1,.comment2,.comment3,.comment4,.comment5 p{
+  margin: 6px;
+  padding: 6px;
+} */
+  /* div.comment1,.comment2,.comment3,.comment4,.comment5 :after{
+  border: solid transparent;
+  content:"";
+  height: 0;
+  width: 0;
+  pointer-events:none;
+  position: absolute;
+  border-width: 10px 30px;
+  margin-top: 10px;
+  right: 100%;
+  top:50%
+} */
+  h1.Name1 {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+  }
+  h1.Name2 {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+  }
+  h1.Name3 {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+  }
+  h1.Name4 {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+      align-self: flex-end;
+  }
+  h1.Name5 {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+      align-self: flex-end;
+  }
