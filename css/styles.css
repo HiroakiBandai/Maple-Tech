@@ -1,11 +1,68 @@
 body.home{
-  background-image:url("../img/Maple-Tech.jpg");
+  background:url("../img/Maple-Tech.jpg") ;
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height:100vh;
-  width:100vw;
+  width:100vw;  
+  margin:0;
+}
+h1{
+  position: relative;
 }
 h1.title{
+  display: inline-block;
+  font-family: 'Righteous', cursive;
+  transition: all 2s;
+  width: 100%;
+  margin-left: 50%;
+  top: 40%;
+  /* left: 50%; */
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color: skyblue;
+  font-size: 100px;
+}
+#navi{
+  margin:0;
+  display:flex;
+  flex-direction:column-reverse ;
+  align-items: flex-end;
+}
+#navi li {
+  display:inline-block;
+  font-size:20px;
+  float:right;
+  padding:10px 20px;
+  position: relative;
+}
+#navi li a{
+    position: relative;
+    top:30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #417ba2;
+}
+#navi li a:hover{
+  color:orange;
+  text-decoration: underline;
+}
+@media screen and (min-width: 425px) {
+body.home{
+  background:url("../img/Maple-Tech.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:100vh;
+  width:100vw;  
+}
+
+
+  h1.title{
   display: inline-block;
   font-family: 'Righteous', cursive;
   transition: all 2s;
@@ -19,78 +76,27 @@ h1.title{
   position: absolute;
   top: 400px;
   color: skyblue;
-  font-size: 100px;
-}
-ul li {
+  
+  }
+  #navi{
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+  }
+  #navi li {
   display:inline-block;
   /* font-size: 0px; */
   float:right;
   padding:10px 20px;
   position: relative;
-}
-ul li a{
+  }
+  #navi li a{
   color:whitesmoke;
   position: relative;
   top: 30%;
   text-decoration: none;
   font-size: 35px;
-}
-ul li a:hover{
-  color:orange;
-  text-decoration: underline;
-}
-
-
-
-    
-}
-
-
-@media screen and (max-width: 425px) {
-  body.home{
-    background:url("../img/Maple-Tech.jpg") ;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-top:391%;
-    height:100vh;
-    width:100vw;  
   }
-h1{
-  position: relative;
-}
-  h1.title{
-    display: inline-block;
-    font-size: 75px;
-    font-family: 'Righteous', cursive;
-    transition: all 2s;
-    width: 100%;
-    margin-left: 50%;
-    /* top: 50%; */
-    /* left: 50%; */
-    transform: translate(-50%,-50%);
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    top: 400px;
-    color: skyblue;
-  }
-  ul li {
-    display:inline-block;
-    font-size:20px;
-    float:right;
-    padding:10px 20px;
-    position: relative;
-  }
-  ul li a{
-    color:whitesmoke;
-    position: relative;
-    top:30px;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  ul li a:hover{
+  #navi li a:hover{
     color:orange;
     text-decoration: underline;
 }
